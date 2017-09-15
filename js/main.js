@@ -81,9 +81,9 @@ $(window).on('scroll', function () {
 });
 
 $('.slider').slick({
-  dots: true,
+  dots: false,
   infinite: true,
   speed: 300,
-  slidesToShow: 1,
-  adaptiveHeight: true
+  autoplay: true,
+  arrows: false
 });
